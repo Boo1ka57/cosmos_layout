@@ -1,0 +1,153 @@
+.button {
+  box-shadow: none;
+  font: 1.143rem/1rem 'NeueMachina', sans-serif;
+  font-weight: 700;
+  line-height: 1.5999999999999999rem;
+  transition: all 0.2s;
+  border: none;
+  color: white;
+  position: relative;
+  background: none;
+  cursor: pointer;
+  padding: 1.464rem 2.214rem 1rem 2.214rem;
+
+  &Rofl {
+    display: block;
+    z-index: 0;
+    border: 2px solid white;
+    position: absolute;
+    clip-path: polygon(25% 30.27%, 55.96% 30.27%, 64.75% 25%, 75% 25%, 75% 57.65%, 42.36% 57.09%, 34.25% 52.64%, 25% 52.64%);
+    //background-color: rgba(0, 35, 252, 0.32);
+    background-size: 9.75rem 4.036rem;
+    background: white;
+    width: 13.857rem;
+    height: 4.036rem;
+    //top:0;
+    //left:0;
+      transition: all 0.3s;
+
+    &Text {
+      z-index: 1;
+      position: relative;
+      color: #13151b;
+    }
+
+    &Art {
+    flex-: ;
+    }
+  }
+
+  &Small {
+    background: url("images/blackButton.png") center no-repeat;
+    background-size: 9.75rem 4.036rem;
+    width: 9.75rem;
+    height: 4.036rem;
+    padding: 1.464rem 3.357rem 1rem 3.464rem;
+  }
+
+  &Medium {
+    background: url("images/blackButton.png") center no-repeat;
+    background-size: 13.857rem 4.036rem;
+    width: 13.857rem;
+    height: 4.036rem;
+    padding: 1.464rem 2.214rem 1rem 2.214rem;
+  }
+
+  &Medium:hover {
+    background-size: 13.857rem 4.036rem;
+    width: 13.857rem;
+    height: 4.036rem;
+    padding: 1.464rem 2.214rem 1rem 2.214rem;
+    cursor: pointer;
+    background: url("images/whiteButton.png") center no-repeat;
+    color: black;
+
+  }
+
+  &Small:hover {
+    background: url("images/whiteButton.png") center no-repeat;
+    background-size: 9.75rem 4.036rem;
+    cursor: pointer;
+    width: 9.75rem;
+    height: 4.036rem;
+    padding: 1.464rem 3.357rem 1rem 3.464rem;
+    color: black;
+  }
+
+
+}
+
+//предыдущая раб.версия, но чутка багнутая
+//.button {
+//  background: url("images/blackButton.png") center no-repeat;
+//  background-size: 9.75rem 4.036rem;
+//  box-shadow: none;
+//  font: 1.143rem 'NeueMachina', sans-serif;
+//  font-weight: 700;
+//  line-height: 1.5999999999999999rem;
+//  transition: all 0.3s;
+//  border: none;
+//  color: white;
+//
+//  &Small {
+//    width: 9.75rem;
+//    height: 4.036rem;
+//    padding: 1.464rem 3.357rem 1rem 3.464rem;
+//
+//  }
+//
+//  &Medium {
+//    width: 13.857rem;
+//    height: 4.036rem;
+//    padding: 1.464rem 2.214rem 1rem 2.214rem;
+//  }
+//
+//  &:hover {
+//    cursor: pointer;
+//    background: url("images/whiteButton.png") center no-repeat;
+//    background-size: contain;
+//    color: black;
+//
+//  }
+//
+//
+//}
+
+
+//.button {
+//  box-shadow: none;
+//  font: 1.143rem 'NeueMachina', sans-serif;
+//  font-weight: 700;
+//  line-height: 1.5999999999999999rem;
+//  transition: all 0.2s;
+//  border: none;
+//  color: white;
+//
+//  &Small {
+//    background: url("images/blackButton.png") center no-repeat;
+//    background-size: 9.75rem 4.036rem;
+//    width: 9.75rem;
+//    height: 4.036rem;
+//    padding: 1.464rem 3.357rem 1rem 3.464rem;
+//
+//  }
+//
+//  &Medium {
+//    background: url("images/blackButton.png") center no-repeat;
+//    background-size: 13.857rem 4.036rem;
+//    width: 13.857rem;
+//    height: 4.036rem;
+//    padding: 1.464rem 2.214rem 1rem 2.214rem;
+//  }
+//
+//  &:hover {
+//    cursor: pointer;
+//    background: url("images/whiteButton.png") center no-repeat;
+//    background-size: contain;
+//    color: black;
+//
+//  }
+//  &Small:hover {
+//    background: url("images/whiteButton.png") center no-repeat;
+//    background-size: 9.75rem 4.036rem;
+//  }

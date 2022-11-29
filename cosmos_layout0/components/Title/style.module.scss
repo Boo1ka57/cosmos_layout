@@ -1,0 +1,16 @@
+.title {
+  font-family: 'TTOctosquares';
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: 2vw;
+  text-align: center;
+
+  &Medium {
+    font-size: 4.714rem;
+    margin-bottom: 2.786rem;
+  }
+
+  &Large {
+    font-size: 5.714rem;
+  }
+}

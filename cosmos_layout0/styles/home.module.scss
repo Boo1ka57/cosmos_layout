@@ -1,0 +1,65 @@
+.section {
+  height: 100vh;
+  padding: 2.143rem 6.857rem;
+  box-sizing: border-box;
+  min-height: 41.429rem;
+
+  &Main {
+    background: url('../public/bg/screen_1_big.jpg') center no-repeat no-repeat;
+  }
+
+  &Earth {
+    background: url('../public/bg/screen_2_big.jpg') center no-repeat no-repeat;
+  }
+
+
+  &Main,
+  &Earth {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-top: 7.142rem;
+    padding-bottom: 7.142rem;
+    justify-content: center;
+  }
+
+  &RoadMap {
+    position: relative;
+    background: linear-gradient(to bottom, #1e202c 0%, #13151b 100%);
+    //z-index: -1;
+
+    &::before {
+      content: "";
+      height: 150px;
+      width: 100%;
+      background: linear-gradient(to bottom, rgba(30, 32, 44, 0) 0%, rgba(30, 32, 44, 1) 100%);
+      display: block;
+      position: absolute;
+      top: -150px;
+      left: 0;
+      z-index: 0;
+    }
+  }
+
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 2.286rem;
+  position: absolute;
+  top: 2.2rem;
+  left: 2.857rem;
+  right: 2.857rem;
+  z-index: 9;
+}
+
+.buttonList {
+  display: flex;
+  gap: 1.429rem;
+  justify-content: center;
+}
+
+
+
